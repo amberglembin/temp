@@ -1,7 +1,19 @@
 <style>
+    body p,
+    h1 {
+        font-family: 'Notable', sans-serif;
+    }
+
+    .main-welcome {
+        width: 100%;
+        text-align: center;
+    }
+
     .category {
+        margin: 4em 0;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         width: 100%;
     }
 
@@ -9,10 +21,22 @@
         width: 25%;
         border: 1px solid #000;
         text-align: center;
+        border-radius: 15px;
+        background-color: #176592;
     }
+
+    .category-box:hover {
+        background-color: #679ebd;
+    }
+
 
     .category-box p.category-box__title {
         font-weight: bold;
+    }
+
+    a.category-box {
+        text-decoration: none;
+        color: #000;
     }
 
     .dragon-slayer-animation {
@@ -40,22 +64,17 @@
         }
     }
 </style>
+<div class="main-welcome">
+    <h1>Amber Glembin</h1>
 
-<h1>Amber Glembin</h1>
-
-<p>Hello world, welcome to my project website.</p>
-
+    <p>Hello, welcome my project website.</p>
+</div>
 <div class="category">
 
-    <div class="category-box">
+    <a href="spritanimation.html" class="category-box">
         <p class="category-box__title">CSS animations</p>
-        <div class="dragon-slayer-animation">
 
-                <img src="dragon-slayer.png" alt="">
-        
-            </div>
-    </div>
-
+    </a>
 
 
 </div>
